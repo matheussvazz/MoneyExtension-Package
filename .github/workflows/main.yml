@@ -1,0 +1,27 @@
+name: build and deploy package
+
+on:
+  push:
+    branches:
+      -main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@main
+
+    - name: Set uo .NET Core
+      uses: actions/setuo-dotnet@v2
+      with:
+        dotnet-version: '7.0.x'
+
+    - name: Build with dotnet
+      run: dotnet build --configuration Release
+
+    - name: Test
+      run: dotnet test
+
+    - name: Create the Package
+      run: dotnet pack --configuration Release

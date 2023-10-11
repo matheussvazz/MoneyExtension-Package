@@ -4,6 +4,26 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>MoneyExtensions</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Matheus Vaz</Authors>
+    <Company>msvazSystem</Company>
+    <PackageDescription>Extension to convert decimal to integer</PackageDescription>
+    <Description>Notifications made easy</Description>
+    <RepositoryUrl>https://github.com/matheussvazz/MoneyExtension-Package</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/matheussvazz/MoneyExtension-Package</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>money;int;decimal;converter</PackageTags>
+    <Title>MoneyExtensions</Title>
+    <Summary>Extension to convert decimal to integer</Summary>
   </PropertyGroup>
+  
+    <ItemGroup>
+        <None Include="..\Media\icon.png" Pack="True" PackagePath="\"/>
+    </ItemGroup>
+
 
 </Project>
