@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <PackageId>MoneyExtensions</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <License>MIT</License>
     <Authors>Matheus Vaz</Authors>
     <Company>msvazSystem</Company>
@@ -20,7 +20,7 @@
     <Title>MoneyExtensions</Title>
     <Summary>Extension to convert decimal to integer</Summary>
   </PropertyGroup>
-  
+
     <ItemGroup>
         <None Include="..\Media\icon.png" Pack="True" PackagePath="\"/>
     </ItemGroup>
